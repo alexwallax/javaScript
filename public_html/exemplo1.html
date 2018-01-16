@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8">    
+    </head>
+    <body>
+        <script type="text/javascript">
+           
+            candidatoA = parseInt (prompt("Quantas pessoas votaram no candidato A"));
+            candidatoB = parseInt (prompt("Quantas pessoas votaram no candidato B"));
+            
+            totalVotos = candidatoA + candidatoB;
+            
+            percentualA = (candidatoA / totalVotos) * 100;
+            percentualB = (candidatoB / totalVotos) * 100;
+            
+            resultado = "Candidato A: " + percentualA.toFixed(2) + "%";
+            resultado += "\n";
+            resultado += "Candidato B: " + percentualB.toFixed(2) + "%";
+  
+            alert(resultado);
+    
+    
+    
+    
+    
+    
+    
+            /*num1 = prompt("Informe o primeiro numero");
+            num2 = prompt("Informe o segundo numero");
+            num1 = parseInt(num1);
+            num2 = parseInt(num2);
+            soma = num1 + num2;
+            alert("A soma de " + num1 + " + " + num2 + " é " + soma); */
+        </script>
+    </body>
+</html>
